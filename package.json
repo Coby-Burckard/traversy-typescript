@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "lite-server --base-dir=\"./class_project\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc ./class_project/app.ts"
   },
   "repository": {
     "type": "git",
